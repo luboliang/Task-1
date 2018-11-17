@@ -1,0 +1,90 @@
+package ptteng.controller;
+
+import ptteng.model.Student;
+import ptteng.service.StudentService;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import ptteng.service.impl.StudentImpl;
+
+import javax.annotation.Resource;
+import java.util.List;
+
+
+@Controller
+public class Json {
+    public static Logger logger = Logger.getLogger(Json.class);
+    @Autowired
+     StudentService  studentService;
+
+    @RequestMapping(value = "/jsons", method = RequestMethod.GET)
+    public String select(Model model) {
+
+        List<Student> list = studentService.list();
+        if (list != null) {
+            model.addAttribute("data", list);
+            model.addAttribute("code", 200);
+        } else {
+            model.addAttribute("code", 201);
+
+        }
+        return "student";
+
+    }
+
+    @RequestMapping(value = "/json", method = RequestMethod.DELETE)
+    public String delete(long id, Model model) {
+        boolean a = studentService.delete(id);
+        if (a) {
+
+            model.addAttribute("code", 200);
+
+        } else {
+            model.addAttribute("code", 201);
+        }
+        return "student";
+    }
+
+    @RequestMapping(value = "/json", method = RequestMethod.POST)
+    public String insert(Model model, Student student) {
+        student.setCreate_at(System.currentTimeMillis());
+        if (studentService.insert(student)) {
+            model.addAttribute("code", 200);
+        } else {
+            model.addAttribute("code", 201);
+        }
+
+
+        return "student";
+    }
+
+    @RequestMapping(value = "/json", method = RequestMethod.PUT)
+    public String update(Model model, Student student) {
+        student.setUpdate_at(System.currentTimeMillis());
+        if (studentService.update(student)) {
+            model.addAttribute("code", 200);
+
+        } else {
+            model.addAttribute("code", 201);
+
+        }
+        return "student";
+    }
+
+    @RequestMapping(value = "/json", method = RequestMethod.GET)
+    public String select(long id, Model model, Student student) {
+        student = studentService.selectId(id);
+        if (student != null) {
+            model.addAttribute("code", 200);
+            model.addAttribute("data", student);
+        } else {
+            model.addAttribute("code", 201);
+        }
+        return "json1";
+
+    }
+
+}

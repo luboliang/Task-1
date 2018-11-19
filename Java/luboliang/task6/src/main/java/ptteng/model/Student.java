@@ -16,18 +16,29 @@ public class Student implements Serializable {
     private long salary;
     private long state;
     private String icon;
-    private long create_at;
-    private long update_at;
+    private long createAt;
+    private long updateAt;
     private long entrance_time;
 
-
-
-    public long getEntrance_time() {
-        return entrance_time;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", profession='" + profession + '\'' +
+                ", position='" + position + '\'' +
+                ", overview='" + overview + '\'' +
+                ", salary=" + salary +
+                ", state=" + state +
+                ", icon='" + icon + '\'' +
+                ", createAt=" + createAt +
+                ", updateAt=" + updateAt +
+                ", entrance_time=" + entrance_time +
+                '}';
     }
 
-    public void setEntrance_time(long entrance_time) {
-        this.entrance_time = entrance_time;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
     public long getId() {
@@ -94,36 +105,27 @@ public class Student implements Serializable {
         this.icon = icon;
     }
 
-    public long getCreate_at() {
-        return create_at;
+    public long getCreateAt() {
+        return createAt;
     }
 
-    public void setCreate_at(long create_at) {
-        this.create_at = create_at;
+    public void setCreateAt(long createAt) {
+        this.createAt = createAt;
     }
 
-    public long getUpdate_at() {
-        return update_at;
+    public long getUpdateAt() {
+        return updateAt;
     }
 
-    public void setUpdate_at(long update_at) {
-        this.update_at = update_at;
+    public void setUpdateAt(long updateAt) {
+        this.updateAt = updateAt;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", profession='" + profession + '\'' +
-                ", position='" + position + '\'' +
-                ", overview='" + overview + '\'' +
-                ", salary=" + salary +
-                ", state=" + state +
-                ", icon='" + icon + '\'' +
-                ", create_at=" + create_at +
-                ", update_at=" + update_at +
-                ", entrance_time=" + entrance_time +
-                '}';
+    public long getEntrance_time() {
+        return entrance_time;
+    }
+
+    public void setEntrance_time(long entrance_time) {
+        this.entrance_time = entrance_time;
     }
 }

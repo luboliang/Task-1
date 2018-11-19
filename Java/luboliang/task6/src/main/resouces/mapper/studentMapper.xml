@@ -3,16 +3,19 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ptteng.MyBatis.StudentDao">
+    <resultMap id="replyMap" type="ptteng.model.Student">
+        <id column="id" property="id"/>
+        <result column="create_at" property="createAt"/>
+        <result column="update_at" property="updateAt"/>
+    </resultMap>
     <insert id="insert" keyProperty="id" useGeneratedKeys="true" parameterType="ptteng.model.Student">
-      INSERT  INTO  student (name,profession,position,overview,salary,state,create_at,update_at) VALUES (#{name},#{profession},#{position},#{overview},#{salary},#{state},#{create_at},#{update_at})
+      INSERT  INTO  student (name,profession,position,overview,salary,state,create_at,update_at) VALUES (#{name},#{profession},#{position},#{overview},#{salary},#{state},#{createAt},#{updateAt})
     </insert>
-
     <delete id="delete" parameterType="long">
         DELETE from student WHERE  id=#{id}
     </delete>
-
     <update id="update"  parameterType="ptteng.model.Student">
-       update  student  set name=#{name},position=#{position},overview=#{overview},salary=#{salary},state=#{state},update_at=#{update_at} where id=#{id}
+       update  student  set name=#{name},position=#{position},overview=#{overview},salary=#{salary},state=#{state},update_at=#{updateAt} where id=#{id}
     </update>
 
     <select id="select" resultType="ptteng.model.Student">
@@ -22,5 +25,4 @@
    <select id="selectId" resultType="ptteng.model.Student" parameterType="long">
        select * from student where id=#{id}
    </select>
-
 </mapper>

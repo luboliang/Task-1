@@ -1,6 +1,7 @@
 package ptteng.util;
 
 import org.springframework.stereotype.Repository;
+import ptteng.model.Student;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,4 +17,7 @@ public interface Cache {
     boolean delete(String key);
 
 
+    boolean update(String key, Object value);
+
+    boolean set(String key, Object value);
 }

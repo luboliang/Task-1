@@ -7,6 +7,7 @@
     <settings>
         <!-- 使用jdbc的getGeneratedKeys获取数据库自增主键值 -->
         <setting name="useGeneratedKeys" value="true" />
+        <setting name="cacheEnabled" value="false"/>
 
         <!-- 使用列别名替换列名 默认:true -->
         <!--<setting name="useColumnLabel" value="true" />-->

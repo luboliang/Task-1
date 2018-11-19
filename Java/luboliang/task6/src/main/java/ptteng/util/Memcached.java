@@ -16,11 +16,6 @@ public class Memcached implements Cache{
         return memCachedClient.set(key,value);
     }
 
-//    @Override
-//    public boolean set(String key, Object value, int t) {
-//        return false;
-//    }
-
     @Override
     public Object get(String key) {
         return  memCachedClient.get(key);
@@ -33,5 +28,15 @@ public class Memcached implements Cache{
     @Override
     public boolean delete(String key) {
         return memCachedClient.delete(key);
+    }
+
+    @Override
+    public boolean update(String key, Object value) {
+        return memCachedClient.replace(key,value);
+    }
+
+    @Override
+    public boolean set(String key, Object value) {
+        return memCachedClient.set(key,value);
     }
 }

@@ -1,10 +1,11 @@
 package ptteng.service;
 
 
+import org.springframework.stereotype.Repository;
 import ptteng.model.Student;
 
 import java.util.List;
-
+@Repository
 public interface StudentService {
 
     boolean insert(Student student);

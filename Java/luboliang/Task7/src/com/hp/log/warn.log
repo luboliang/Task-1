@@ -1,0 +1,19 @@
+2018-11-26 13:45:31 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:62) ]
+WARN:[Unknown]Unable to execute HTTP request: Connection pool shut down
+2018-11-26 14:01:24 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:62) ]
+WARN:[Server]Unable to execute HTTP request: The specified bucket is not valid.
+[ErrorCode]: InvalidBucketName
+[RequestId]: 5BFB8C33FA86911A0A58B2FC
+[HostId]: luboliang.luboliang.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidBucketName</Code>
+  <Message>The specified bucket is not valid.</Message>
+  <RequestId>5BFB8C33FA86911A0A58B2FC</RequestId>
+  <HostId>luboliang.luboliang.oss-cn-beijing.aliyuncs.com</HostId>
+  <BucketName>luboliang.luboliang</BucketName>
+</Error>
+
+2018-11-26 14:02:39 下午 [Thread: main][ Class:com.aliyun.oss >> Method: com.aliyun.oss.common.utils.LogUtils.logException(LogUtils.java:62) ]
+WARN:[Unknown]Unable to execute HTTP request: Connection pool shut down

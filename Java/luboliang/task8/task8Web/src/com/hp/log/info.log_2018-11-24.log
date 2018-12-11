@@ -1,0 +1,982 @@
+2018-11-24 21:42:08 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:42:08 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57d5872c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@667a738, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@36f0f1be, org.springframework.test.context.support.DirtiesContextTestExecutionListener@157632c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ee12bac, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55040f2f]
+2018-11-24 21:42:08 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:42:08 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@402e37bc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79ad8b2f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1df82230, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22635ba0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13c10b87, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a01e23]
+2018-11-24 21:42:10 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:42:49 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 21:42:49 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 21:42:49 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 21:42:50 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 21:42:51 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@6e171cd7: startup date [Sat Nov 24 21:42:51 CST 2018]; root of context hierarchy
+2018-11-24 21:42:51 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 21:43:04 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 21:43:06 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 21:43:09 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@6e171cd7: startup date [Sat Nov 24 21:42:51 CST 2018]; root of context hierarchy
+2018-11-24 21:43:09 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@6e171cd7: startup date [Sat Nov 24 21:42:51 CST 2018]; root of context hierarchy
+2018-11-24 21:43:10 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-11-24 21:43:10 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1df82230] to prepare test instance [testicon@40f8f5a8]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:65)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 43 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tiles.request.ApplicationAccess.register(ApplicationAccess.java:50)
+	at org.apache.tiles.startup.AbstractTilesInitializer.initialize(AbstractTilesInitializer.java:62)
+	at org.springframework.web.servlet.view.tiles3.TilesConfigurer.afterPropertiesSet(TilesConfigurer.java:271)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 58 more
+2018-11-24 21:48:37 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:48:37 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:48:38 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:48:59 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@530612ba]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]; nested exception is java.net.ConnectException: Connection timed out: connect
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:410)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:252)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:257)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:124)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:647)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1304)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1270)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:264)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1161)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1045)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:959)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 37 more
+2018-11-24 21:49:22 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:49:22 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:49:22 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:49:25 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 21:49:25 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 21:49:26 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 21:49:27 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 21:49:28 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:49:28 CST 2018]; root of context hierarchy
+2018-11-24 21:49:30 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 21:49:38 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 21:49:39 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 21:49:40 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 21:49:43 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:49:28 CST 2018]; root of context hierarchy
+2018-11-24 21:49:43 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:49:28 CST 2018]; root of context hierarchy
+2018-11-24 21:49:44 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-11-24 21:49:44 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@4f186450]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tiles.request.ApplicationAccess.register(ApplicationAccess.java:50)
+	at org.apache.tiles.startup.AbstractTilesInitializer.initialize(AbstractTilesInitializer.java:62)
+	at org.springframework.web.servlet.view.tiles3.TilesConfigurer.afterPropertiesSet(TilesConfigurer.java:271)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 39 more
+2018-11-24 21:51:23 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:51:24 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:51:24 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:51:29 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 21:51:30 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 21:51:30 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 21:51:32 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:51:32 CST 2018]; root of context hierarchy
+2018-11-24 21:51:33 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 21:51:41 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 21:51:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 21:51:43 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 21:51:46 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:51:32 CST 2018]; root of context hierarchy
+2018-11-24 21:51:47 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:51:32 CST 2018]; root of context hierarchy
+2018-11-24 21:51:47 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-11-24 21:51:47 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@4f186450]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tiles.request.ApplicationAccess.register(ApplicationAccess.java:50)
+	at org.apache.tiles.startup.AbstractTilesInitializer.initialize(AbstractTilesInitializer.java:62)
+	at org.springframework.web.servlet.view.tiles3.TilesConfigurer.afterPropertiesSet(TilesConfigurer.java:271)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 39 more
+2018-11-24 21:53:52 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:53:52 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:53:53 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:54:05 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 21:54:06 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 21:54:06 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 21:54:07 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 21:54:08 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:54:08 CST 2018]; root of context hierarchy
+2018-11-24 21:54:09 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 21:54:19 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 21:54:20 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 21:54:21 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 21:54:25 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:54:08 CST 2018]; root of context hierarchy
+2018-11-24 21:54:25 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:54:08 CST 2018]; root of context hierarchy
+2018-11-24 21:54:26 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-11-24 21:54:26 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@4f186450]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tiles.request.ApplicationAccess.register(ApplicationAccess.java:50)
+	at org.apache.tiles.startup.AbstractTilesInitializer.initialize(AbstractTilesInitializer.java:62)
+	at org.springframework.web.servlet.view.tiles3.TilesConfigurer.afterPropertiesSet(TilesConfigurer.java:271)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 39 more
+2018-11-24 21:56:07 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:56:07 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:56:07 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:58:04 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 21:58:04 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 21:58:04 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 21:58:07 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 21:58:08 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 21:58:08 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 21:58:10 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 21:58:11 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+2018-11-24 21:58:11 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 21:58:18 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 21:58:19 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 21:58:22 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+2018-11-24 21:58:22 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+2018-11-24 21:58:23 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#1'
+2018-11-24 21:58:23 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#2'
+2018-11-24 21:58:23 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': Invocation of init method failed; nested exception is java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [WEB-INF/images/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2fc07784]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+2018-11-24 21:58:23 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@8c46918]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': Invocation of init method failed; nested exception is java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [WEB-INF/images/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2fc07784]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [WEB-INF/images/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2fc07784]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 21:58:11 CST 2018]; root of context hierarchy
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getWebApplicationContext(WebApplicationObjectSupport.java:112)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getServletContext(WebApplicationObjectSupport.java:128)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.initContentNegotiationStrategy(ResourceHttpRequestHandler.java:306)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.afterPropertiesSet(ResourceHttpRequestHandler.java:268)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 39 more
+2018-11-24 22:05:24 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:05:24 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4523f8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@731a74c]
+2018-11-24 22:05:25 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 22:05:27 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]
+2018-11-24 22:05:27 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-service.xml]
+2018-11-24 22:05:28 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'redisTemplate' with a different definition: replacing [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\redis-context.xml]] with [Generic bean: class [org.springframework.data.redis.core.StringRedisTemplate]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [spring/redis-context.xml]]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:826) ]
+INFO:Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [com.alibaba.druid.pool.DruidDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in file [E:\PersionalPaicti\Task7\target\classes\spring\springDao.xml]]
+2018-11-24 22:05:30 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 22:05:30 CST 2018]; root of context hierarchy
+2018-11-24 22:05:33 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 22:05:41 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) ]
+INFO:Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/u/profession],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.profession(org.springframework.ui.Model)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/partner],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.partner()
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Controllers.qw(org.springframework.ui.Model)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[PUT]}" onto public java.lang.String com.jnshu.controller.Json.update(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[DELETE]}" onto public java.lang.String com.jnshu.controller.Json.delete(long,org.springframework.ui.Model)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[POST]}" onto public java.lang.String com.jnshu.controller.Json.insert(org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/json],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(long,org.springframework.ui.Model,com.jnshu.model.Student)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/jsons],methods=[GET]}" onto public java.lang.String com.jnshu.controller.Json.select(org.springframework.ui.Model)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.add(com.jnshu.model.User,java.lang.String) throws java.security.NoSuchAlgorithmException,java.io.UnsupportedEncodingException,com.aliyuncs.exceptions.ClientException
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.jnshu.model.User) throws java.lang.Exception
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.login()
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/code],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.getEmailCode(com.jnshu.model.User) throws java.io.IOException
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/icon],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.icon()
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.resgister()
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/email/register],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.emailresgister()
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/img],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.img(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException,java.lang.InterruptedException
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/cookie],methods=[GET]}" onto public java.lang.String com.jnshu.controller.LoginController.edit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/submit],methods=[POST]}" onto public java.lang.String com.jnshu.controller.LoginController.code(com.jnshu.model.User) throws com.aliyuncs.exceptions.ClientException
+2018-11-24 22:05:42 下午 [Thread: main][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:17) ]
+INFO:HV000001: Hibernate Validator 5.2.2.Final
+2018-11-24 22:05:46 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 22:05:30 CST 2018]; root of context hierarchy
+2018-11-24 22:05:46 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1f57539: startup date [Sat Nov 24 22:05:30 CST 2018]; root of context hierarchy
+2018-11-24 22:05:47 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ]
+WARN:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+2018-11-24 22:05:47 下午 [Thread: main][ Class:org.springframework.test.context.TestContextManager >> Method: org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234) ]
+ERROR:Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3] to prepare test instance [testicon@4f186450]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tilesConfigurer' defined in file [E:\PersionalPaicti\Task7\target\classes\spring\spring-web.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tiles.request.ApplicationAccess.register(ApplicationAccess.java:50)
+	at org.apache.tiles.startup.AbstractTilesInitializer.initialize(AbstractTilesInitializer.java:62)
+	at org.springframework.web.servlet.view.tiles3.TilesConfigurer.afterPropertiesSet(TilesConfigurer.java:271)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1648)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1585)
+	... 39 more
+2018-11-24 22:07:34 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:07:34 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c3708b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f1fba17, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@185d8b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67784306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@335eadca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@210366b4]
+2018-11-24 22:07:34 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from file [E:\PersionalPaicti\Task7\target\classes\spring\mybatis-config.xml]
+2018-11-24 22:09:45 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:09:45 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c3708b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f1fba17, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@185d8b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67784306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@335eadca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@210366b4]
+2018-11-24 22:09:45 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/springDao.xml]
+2018-11-24 22:09:46 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 22:09:47 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@33f88ab: startup date [Sat Nov 24 22:09:47 CST 2018]; root of context hierarchy
+2018-11-24 22:09:48 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 22:10:10 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) ]
+INFO:{dataSource-1} inited
+2018-11-24 22:10:11 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-11-24 22:10:11 下午 [Thread: main][ Class:org.springframework.jdbc.support.SQLErrorCodesFactory >> Method: org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:127) ]
+INFO:SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-11-24 22:10:11 下午 [Thread: Thread-3][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:987) ]
+INFO:Closing org.springframework.context.support.GenericApplicationContext@33f88ab: startup date [Sat Nov 24 22:09:47 CST 2018]; root of context hierarchy
+2018-11-24 22:10:11 下午 [Thread: Thread-3][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1370) ]
+INFO:{dataSource-1} closed
+2018-11-24 22:12:47 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:12:47 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c3708b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f1fba17, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@185d8b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67784306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@335eadca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@210366b4]
+2018-11-24 22:12:47 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/springDao.xml]
+2018-11-24 22:12:48 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 22:12:48 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@33f88ab: startup date [Sat Nov 24 22:12:48 CST 2018]; root of context hierarchy
+2018-11-24 22:12:50 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 22:13:05 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) ]
+INFO:{dataSource-1} inited
+2018-11-24 22:13:05 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-11-24 22:13:05 下午 [Thread: main][ Class:org.springframework.jdbc.support.SQLErrorCodesFactory >> Method: org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:127) ]
+INFO:SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-11-24 22:13:05 下午 [Thread: Thread-3][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:987) ]
+INFO:Closing org.springframework.context.support.GenericApplicationContext@33f88ab: startup date [Sat Nov 24 22:12:48 CST 2018]; root of context hierarchy
+2018-11-24 22:13:05 下午 [Thread: Thread-3][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1370) ]
+INFO:{dataSource-1} closed
+2018-11-24 22:22:17 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:22:17 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f1fba17, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@185d8b6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@67784306, org.springframework.test.context.support.DirtiesContextTestExecutionListener@335eadca, org.springframework.test.context.transaction.TransactionalTestExecutionListener@210366b4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@eec5a4a]
+2018-11-24 22:22:17 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/springDao.xml]
+2018-11-24 22:22:18 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 22:22:18 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@27a8c74e: startup date [Sat Nov 24 22:22:18 CST 2018]; root of context hierarchy
+2018-11-24 22:22:20 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]
+2018-11-24 22:22:38 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) ]
+INFO:{dataSource-1} inited
+2018-11-24 22:22:39 下午 [Thread: main][ Class:com.jnshu.Util.Aop.LogAspect >> Method: com.jnshu.Util.Aop.LogAspect.time1(LogAspect.java:44) ]
+INFO:访问DB时间======================================================================================================8765
+2018-11-24 22:22:39 下午 [Thread: main][ Class:com.jnshu.Util.Aop.LogAspect >> Method: com.jnshu.Util.Aop.LogAspect.time1(LogAspect.java:47) ]
+INFO:=============方法名===========================================upIcon
+2018-11-24 22:22:39 下午 [Thread: Thread-3][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:987) ]
+INFO:Closing org.springframework.context.support.GenericApplicationContext@27a8c74e: startup date [Sat Nov 24 22:22:18 CST 2018]; root of context hierarchy
+2018-11-24 22:22:39 下午 [Thread: Thread-3][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1370) ]
+INFO:{dataSource-1} closed
+2018-11-24 22:23:17 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:260) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-24 22:23:17 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:187) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c3708b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f1fba17, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@185d8b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67784306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@335eadca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@210366b4]
+2018-11-24 22:23:17 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/springDao.xml]
+2018-11-24 22:23:18 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) ]
+INFO:Loading XML bean definitions from class path resource [spring/redis-context.xml]
+2018-11-24 22:23:20 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@33f88ab: startup date [Sat Nov 24 22:23:20 CST 2018]; root of context hierarchy
+2018-11-24 22:23:22 下午 [Thread: main][ Class:org.springframework.context.support.PropertySourcesPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [spring/jdbc.properties]

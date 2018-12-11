@@ -1,0 +1,12 @@
+com\jnshu\model\Partner.class
+com\jnshu\service\StudentService.class
+com\jnshu\MyBatis\ProfessionDao.class
+com\jnshu\model\Student.class
+com\jnshu\impl\StudentImpl.class
+com\jnshu\impl\ProfessionImpl.class
+com\jnshu\service\Server.class
+com\jnshu\App.class
+com\jnshu\model\User.class
+com\jnshu\MyBatis\StudentDao.class
+com\jnshu\model\Profession.class
+com\jnshu\service\ProfessionService.class

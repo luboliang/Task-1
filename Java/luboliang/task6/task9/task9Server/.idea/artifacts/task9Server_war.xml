@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="task9Server:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="task9Server.war">
+      <element id="artifact" artifact-name="task9Server:war exploded" />
+    </root>
+  </artifact>
+</component>
